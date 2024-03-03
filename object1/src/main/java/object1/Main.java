@@ -10,7 +10,8 @@ public class Main {
 
         Person person2 = new Person ("Ali", 31);
 
-        System.out.println(person2.getHeight("height: " ));
+        System.out.print(person2.height);
+
 
 
     }

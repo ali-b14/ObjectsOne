@@ -1,5 +1,7 @@
 package object1;
 
+import java.util.DoubleSummaryStatistics;
+
 // Define a class
 class Person {
     // Define Instance Variables
@@ -7,8 +9,7 @@ class Person {
 
     String name;
     int age = 0;
-    // units are in centimeters
-    int height;
+    int height; // units are in centimeters
 
     // Constructor
     public Person(String name, int age) {
@@ -31,7 +32,7 @@ class Person {
         }
 
         public int getHeight() {
-            return height;
+        return height;
         }
         public void setHeight() {
             this.height = height;
@@ -42,6 +43,7 @@ class Person {
         // Declare and initialize an object
         Person person1 = new Person("John", 30); /* Now you can use the Object `person1` */
 
+        System.out.print(person1.name);
 
 
 
